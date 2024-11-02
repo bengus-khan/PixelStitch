@@ -1,11 +1,11 @@
 # 8-Stitch
-8-Stitch is a needlepoint-style renderer for 8-bit style pixelated designs.
+8-Stitch is a needlepoint-style renderer for 8-bit style pixel designs.
 
 ## Premise
 Graphics processor that takes 8-bit style designs and adapts them to a needlepoint grid that changes with each animation frame - giving the impression that each frame is its own organic needlepoint canvas.
 
 ## Method
-8-Stitch starts with plain white needlepoint canvases as backgrounds for user designs. These backgrounds need to have minimal lens distortion, because they will be functioning as the pixel grid of any rendered graphics. They will also have zero saturation, allowing them to take on the colors of user designs. Ideally, there will be at least 5-10 unique canvases, which the animation will cycle through on a frame-by-frame basis.
+8-Stitch starts with photos of plain white needlepoint canvases as backgrounds for user designs. These images need to have minimal perspective distortion and low saturation, allowing them to function as pixel grids and take on the colors of user designs. Ideally, there will be at least 5-10 unique canvases, which the animation will cycle through on a frame-by-frame basis.
 
 Each unique background canvas will also have an accompanying vector mask that essentially divides the image area into "pixels" that share boundaries with each stitch on the grid of the needlepoint canvas. These vector masks will be drawn to match the actual physical boundaries of each stitch.
 
