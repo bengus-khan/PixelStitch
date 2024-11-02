@@ -21,6 +21,8 @@ import yaml
 DEVNOTES:
 - Some really meaningful notes, yeah!
 - Pixel aspect ratio needs to always be 1:1
+- User designs restricted to 4-bit color
+- Apply pixel animations to background using shaders in Godot
 - Processing required:
     - Parse background raster image
         - Number of pixels & aspect ratio
@@ -40,17 +42,17 @@ DEVNOTES:
 
 # Input files
 user_design = None
-# Eventually going to list all background raster & mask files in a json or yaml file
+# Eventually going to list all background raster & mask files in a json or yaml file - might do this in higher-level script
 raster_background = None
 vector_mask = None
 
-class EightStitch:
+class PixelStitch:
 
     def __init__(self, user_design, raster_background, vector_mask):
         self.design = Image.open(user_design)
         self.bg_image = Image.open(raster_background)
         # Determine best method(s) for loading vector mask data from svg file
-        self.mask2xmltree = XmlTree(vector_mask)
+        self.maskxmltree = XmlTree.parse(vector_mask)
         self.mask2paths = svgpathtools.svg2paths(vector_mask)
 
     def ParseBackground(self):

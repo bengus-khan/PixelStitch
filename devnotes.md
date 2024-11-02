@@ -1,10 +1,10 @@
 # Development notes
 
-## The 'eightstitch' directory
+## The 'pixelstitch' directory
 This directory is the home of all python scripts for the project.
 
 ## The 'backgrounds' directory
-This directory is the home of all background images and vector masks. Each supported grid aspect ratio will have a dedicated subdirectory within this directory (e.g., "/8-Stitch/backgrounds/16x16/"). Example directory structure shown below:
+This directory is the home of all background images and vector masks. Each supported grid aspect ratio will have a dedicated subdirectory within this directory (e.g., "/PixelStitch/backgrounds/16x16/"). Example directory structure shown below:
 
 ```
 backgrounds/

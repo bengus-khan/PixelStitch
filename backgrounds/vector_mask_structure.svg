@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+This file displays the basic structural conventions we need to use for all vector masks. I'll see about creating a Schematron schema to validate these conventions automatically.
+
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="" height="">
+    <g id="row1">
+        <path id="stitch1.1" d="" fill="" fill-opacity=""/>
+        <path id="stitch1.2" d="" fill="" fill-opacity=""/>
+        <path id="stitch1.3" d="" fill="" fill-opacity=""/>
+        <path id="stitch1.4" d="" fill="" fill-opacity=""/>
+    </g>
+    <g id="row2">
+        <path id="stitch2.1" d="" fill="" fill-opacity=""/>
+        <path id="stitch2.2" d="" fill="" fill-opacity=""/>
+        <path id="stitch2.3" d="" fill="" fill-opacity=""/>
+        <path id="stitch2.4" d="" fill="" fill-opacity=""/>
+    </g>
+    <g id="row3">
+        <path id="stitch3.1" d="" fill="" fill-opacity=""/>
+        <path id="stitch3.2" d="" fill="" fill-opacity=""/>
+        <path id="stitch3.3" d="" fill="" fill-opacity=""/>
+        <path id="stitch3.4" d="" fill="" fill-opacity=""/>
+    </g>
+    <g id="row4">
+        <path id="stitch4.1" d="" fill="" fill-opacity=""/>
+        <path id="stitch4.2" d="" fill="" fill-opacity=""/>
+        <path id="stitch4.3" d="" fill="" fill-opacity=""/>
+        <path id="stitch4.4" d="" fill="" fill-opacity=""/>
+    </g>
+</svg>
