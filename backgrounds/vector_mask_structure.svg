@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!--
 
 This file displays the basic structural conventions we need to use for all vector masks. I'll see about creating a Schematron schema to validate these conventions automatically.
 
+For larger grids, we may need to break the grid into quadrants/blocks and then split the rows up from there. The svg format supports nested <g> elements, so this is very doable - we'll just have to figure out the right id naming convention for more complex structures.
+
 -->
+
 <svg xmlns="http://www.w3.org/2000/svg" width="" height="">
     <g id="row1">
         <path id="stitch1.1" d="" fill="" fill-opacity=""/>

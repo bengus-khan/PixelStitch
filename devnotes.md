@@ -24,7 +24,8 @@ backgrounds/
 │   ├── 32x32-2_raster.png
 │   └── 32x32-2_mask.svg
 ├── backgrounds.json
-└── backgrounds.yaml
+├── backgrounds.yaml
+└── vector_mask_structure.svg
 ```
 
 I'm still deciding between using `yaml` vs `json` for the background info file.
