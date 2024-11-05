@@ -44,7 +44,7 @@ DEVNOTES:
 user_design = None
 # Eventually going to list all background raster & mask files in a json or yaml file - might do this in higher-level script
 raster_background = None
-vector_mask = "../backgrounds/vector_mask_structure.svg"
+vector_mask = '../backgrounds/vector_mask_structure.svg'
 
 class PixelStitch:
 
@@ -55,7 +55,7 @@ class PixelStitch:
         self.mask_paths = svgpathtools.svg2paths(vector_mask)
 
     def HexToRgba(self, hex_color, opacity):
-        hex_color = hex_color.lstrip("#")
+        hex_color = hex_color.lstrip('#')
         r = int(hex_color[0:2], 16)
         g = int(hex_color[2:4], 16)
         b = int(hex_color[4:6], 16)
@@ -63,28 +63,30 @@ class PixelStitch:
         return [r, g, b, a]
     
     def RgbaToHex(self, r, g, b, a):
-        print('placeholder')
-
-    def ParseBackground(self):
-        self.bg_image_array = np.array(self.bg_image)
+        r_hex = f'{r:02X}'
+        g_hex = f'{g:02X}'
+        b_hex = f'{b:02X}'
+        hex_color = ''.join(['#', r_hex, g_hex, b_hex])
+        opacity = f'{a / 255:.2f}'
+        return [hex_color, opacity]
 
     def ParseMask(self):
         # Construct pixel array w/ same structure as png array
         mask_root = self.mask_xmltree.getroot()
-        rows = mask_root.findall("{http://www.w3.org/2000/svg}g")
+        rows = mask_root.findall('{http://www.w3.org/2000/svg}g')
         height = len(rows)
-        width = len(rows[0].findall("{http://www.w3.org/2000/svg}path")) if height > 0 else 0
+        width = len(rows[0].findall('{http://www.w3.org/2000/svg}path')) if height > 0 else 0
 
         # Initialize a NumPy array for RGBA data - use uint8 for RGBA (0-255 range)
         self.mask_array = np.zeros((height, width, 4), dtype=np.uint8)
 
         # Loop through each row and each path to fill in the array
         for i, row in enumerate(rows):
-            paths = row.findall("{http://www.w3.org/2000/svg}path")
+            paths = row.findall('{http://www.w3.org/2000/svg}path')
 
             for j, path in enumerate(paths):
-                fill = path.attrib.get("fill", "#000000") # Default to black if fill is missing
-                fill_opacity = path.attrib.get("fill-opacity", "0") # Default to fully transparent if opacity is missing
+                fill = path.attrib.get('fill', '#000000') # Default to black if fill is missing
+                fill_opacity = path.attrib.get('fill-opacity', '0') # Default to fully transparent if opacity is missing
 
                 # Convert to RGBA and store in the array
                 rgba = self.HexToRgba(fill, fill_opacity)
@@ -99,6 +101,10 @@ class PixelStitch:
 
     def GenerateColorMask(self):
         print('placeholder')
+
+    def ParseBackground(self):
+        # this method may not be necessary, tbd
+        self.bg_image_array = np.array(self.bg_image)
 
     def ExportRasterFrame(self):
         print('placeholder')
