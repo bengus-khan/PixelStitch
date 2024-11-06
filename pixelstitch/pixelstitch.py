@@ -99,7 +99,7 @@ class PixelStitch:
         if self.design_array.shape != self.mask_array.shape:
             print('placeholder')
 
-    def GenerateColorMask(self):
+    def PopulateVectorMask(self):
         print('placeholder')
 
     def ParseBackground(self):
