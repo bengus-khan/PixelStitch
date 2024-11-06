@@ -10,291 +10,1315 @@ For larger grids, we may need to break the grid into quadrants/blocks and then s
 
 <svg xmlns="http://www.w3.org/2000/svg" width="" height="">
     <g id="row1">
-        <path id="stitch1.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch1.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch1.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch1.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row2">
-        <path id="stitch2.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch2.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch2.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch2.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row3">
-        <path id="stitch3.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch3.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch3.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch3.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row4">
-        <path id="stitch4.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch4.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch4.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch4.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row5">
-        <path id="stitch5.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch5.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch5.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch5.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row6">
-        <path id="stitch6.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch6.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch6.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch6.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row7">
-        <path id="stitch7.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch7.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch7.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch7.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row8">
-        <path id="stitch8.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch8.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch8.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch8.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row9">
-        <path id="stitch9.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch9.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch9.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch9.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row10">
-        <path id="stitch10.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch10.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch10.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch10.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row11">
-        <path id="stitch11.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch11.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch11.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch11.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row12">
-        <path id="stitch12.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch12.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch12.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch12.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row13">
-        <path id="stitch13.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch13.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch13.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch13.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row14">
-        <path id="stitch14.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch14.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch14.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch14.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row15">
-        <path id="stitch15.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch15.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch15.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch15.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
     <g id="row16">
-        <path id="stitch16.1" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.2" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.3" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.4" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.5" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.6" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.7" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.8" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.9" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.10" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.11" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.12" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.13" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.14" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.15" d="" fill="" fill-opacity=""/>
-        <path id="stitch16.16" d="" fill="" fill-opacity=""/>
+        <path
+            id="stitch16.1"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.2"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.3"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.4"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.5"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.6"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.7"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.8"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.9"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.10"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.11"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.12"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.13"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.14"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.15"
+            d=""
+            fill=""
+            fill-opacity=""/>
+        <path
+            id="stitch16.16"
+            d=""
+            fill=""
+            fill-opacity=""/>
     </g>
 </svg>
