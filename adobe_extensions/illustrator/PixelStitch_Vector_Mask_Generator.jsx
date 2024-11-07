@@ -3,26 +3,26 @@
 // User input dialog
 var dialog = new Window("dialog", "PixelStitch Vector Mask Generator");
 
-dialog.add('statictext', undefined, 'Enter the grid width (must be an integer between 8 and 64):');
+dialog.add('statictext', undefined, 'Enter the grid width (must be an integer between 8 and 128):');
 var width_input = dialog.add('edittext', undefined, '16');
 width_input.onChanging = function() {
     width_input.text = width_input.text.replace(/[^\d]/g, '');
     var value = parseInt(width_input.text, 10);
     if (isNaN(value) || value < 8) {
         width_input.text = '8';
-    } else if (value > 64) {
-        width_input.text = '64'
+    } else if (value > 128) {
+        width_input.text = '128'
     }
 };
-dialog.add('statictext', undefined, 'Enter the grid height (must be an integer between 8 and 64):');
+dialog.add('statictext', undefined, 'Enter the grid height (must be an integer between 8 and 128):');
 var height_input = dialog.add('edittext', undefined, '16');
 height_input.onChanging = function() {
     height_input.text = height_input.text.replace(/[^\d]/g, '');
     var value = parseInt(height_input.text, 10);
     if (isNaN(value) || value < 8) {
         height_input.text = '8';
-    } else if (value > 64) {
-        height_input.text = '64'
+    } else if (value > 128) {
+        height_input.text = '128'
     }
 };
 dialog.add('statictext', undefined, 'Select the size of each grid square:');
@@ -51,7 +51,7 @@ if (dialog.show() == 1) {
 };
 
 // Script execution below
-if (isNaN(width) || isNaN(height) || width < 8 || width > 64 || height < 8 || height > 64) {
+if (isNaN(width) || isNaN(height) || width < 8 || width > 128 || height < 8 || height > 128) {
     alert("Please enter valid positive integers for width and height.");
 } else {
     // Check if there is an open document
