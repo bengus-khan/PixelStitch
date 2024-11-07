@@ -1,35 +1,34 @@
 // Adobe Illustrator extension for PixelStitch graphic design system
 
-// Awkward dangler for now
-var size = 60;
-
 // User input dialog
 var dialog = new Window("dialog", "PixelStitch Vector Mask Generator");
 
-dialog.add('statictext', undefined, 'Enter the grid width (must be an integer between 8 and 128):');
+dialog.add('statictext', undefined, 'Enter the grid width (must be an integer between 8 and 64):');
 var width_input = dialog.add('edittext', undefined, '16');
 width_input.onChanging = function() {
     width_input.text = width_input.text.replace(/[^\d]/g, '');
     var value = parseInt(width_input.text, 10);
     if (isNaN(value) || value < 8) {
         width_input.text = '8';
-    } else if (value > 128) {
-        width_input.text = '128'
+    } else if (value > 64) {
+        width_input.text = '64'
     }
 };
-dialog.add('statictext', undefined, 'Enter the grid height (must be an integer between 8 and 128):');
+dialog.add('statictext', undefined, 'Enter the grid height (must be an integer between 8 and 64):');
 var height_input = dialog.add('edittext', undefined, '16');
 height_input.onChanging = function() {
     height_input.text = height_input.text.replace(/[^\d]/g, '');
     var value = parseInt(height_input.text, 10);
     if (isNaN(value) || value < 8) {
         height_input.text = '8';
-    } else if (value > 128) {
-        height_input.text = '128'
+    } else if (value > 64) {
+        height_input.text = '64'
     }
 };
+dialog.add('statictext', undefined, 'Select the size of each grid square:');
+var size_input = dialog.add('dropdownlist', undefined, [30, 60]);
 dialog.add('statictext', undefined, 'Select the number of anchor points per grid square:');
-var pointsPerSquare_Input = dialog.add('dropdownlist', undefined, [4, 8, 12, 16, 20]);
+var anchor_points_input = dialog.add('dropdownlist', undefined, [4, 8, 12, 16, 20]);
 
 // OK and Cancel buttons
 var buttonGroup = dialog.add('group');
@@ -45,12 +44,14 @@ cancelButton.onClick = function () {
 if (dialog.show() == 1) {
     width = width_input.text;
     height = height_input.text;
+    size = size_input.text;
+    anchor_points = anchor_points_input.text
 } else {
     alert("Script input cancelled.");
 };
 
 // Script execution below
-if (isNaN(width) || isNaN(height) || width < 8 || width > 128 || height < 8 || height > 128) {
+if (isNaN(width) || isNaN(height) || width < 8 || width > 64 || height < 8 || height > 64) {
     alert("Please enter valid positive integers for width and height.");
 } else {
     // Check if there is an open document
@@ -68,23 +69,23 @@ if (isNaN(width) || isNaN(height) || width < 8 || width > 128 || height < 8 || h
                 return false; // Layer does not exist
             }
         }
-        function createStitch(x, y, size, points_per_side) {
+        function createStitch(x, y, size, anchor_points) {
             var points = [];
-            var step = size / (points_per_side - 1);
+            var step = size / (anchor_points / 4);
             // Top edge points (from top-left to top-right)
-            for (var i = 0; i < points_per_side; i++) {
+            for (var i = 0; i < (anchor_points / 4); i++) {
                 points.push([x + (i * step), y]);
             }
             // Right edge points (from top-right to bottom-right)
-            for (var i = 1; i < points_per_side; i++) {
+            for (var i = 1; i < (anchor_points / 4); i++) {
                 points.push([x + size, y - (i * step)]);
             }
             // Bottom edge points (from bottom-right to bottom-left)
-            for (var i = points_per_side - 2; i >= 0; i--) {
+            for (var i = (anchor_points / 4) - 2; i >= 0; i--) {
                 points.push([x + (i * step), y - size]);
             }
             // Left edge points (from bottom-left to top-left)
-            for (var i = points_per_side - 2; i > 0; i--) {
+            for (var i = (anchor_points / 4) - 2; i > 0; i--) {
                 points.push([x, y - (i * step)]);
             }
             // Create the path
