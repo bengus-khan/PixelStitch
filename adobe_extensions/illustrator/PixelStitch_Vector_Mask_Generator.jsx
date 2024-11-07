@@ -5,6 +5,7 @@ var dialog = new Window("dialog", "PixelStitch Vector Mask Generator");
 
 dialog.add('statictext', undefined, 'Enter the grid width (must be an integer between 8 and 128):');
 var width_input = dialog.add('edittext', undefined, '16');
+width_input.characters = 4;
 width_input.onChanging = function() {
     width_input.text = width_input.text.replace(/[^\d]/g, '');
     var value = parseInt(width_input.text, 10);
@@ -16,6 +17,7 @@ width_input.onChanging = function() {
 };
 dialog.add('statictext', undefined, 'Enter the grid height (must be an integer between 8 and 128):');
 var height_input = dialog.add('edittext', undefined, '16');
+height_input.characters = 4;
 height_input.onChanging = function() {
     height_input.text = height_input.text.replace(/[^\d]/g, '');
     var value = parseInt(height_input.text, 10);
@@ -27,8 +29,10 @@ height_input.onChanging = function() {
 };
 dialog.add('statictext', undefined, 'Select the size of each grid square:');
 var size_input = dialog.add('dropdownlist', undefined, [30, 60]);
+size_input.characters = 4;
 dialog.add('statictext', undefined, 'Select the number of anchor points per grid square:');
 var anchor_points_input = dialog.add('dropdownlist', undefined, [4, 8, 12, 16, 20]);
+anchor_points_input.characters = 4;
 
 // OK and Cancel buttons
 var buttonGroup = dialog.add('group');
