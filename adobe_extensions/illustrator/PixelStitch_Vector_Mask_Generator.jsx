@@ -1,5 +1,8 @@
 // Adobe Illustrator extension for PixelStitch graphic design system
 
+// Awkward dangler for now
+var size = 60;
+
 // User input dialog
 var dialog = new Window("dialog", "PixelStitch Vector Mask Generator");
 
@@ -14,7 +17,6 @@ width_input.onChanging = function() {
         width_input.text = '128'
     }
 };
-
 dialog.add('statictext', undefined, 'Enter the grid height (must be an integer between 8 and 128):');
 var height_input = dialog.add('edittext', undefined, '16');
 height_input.onChanging = function() {
@@ -26,12 +28,8 @@ height_input.onChanging = function() {
         height_input.text = '128'
     }
 };
-
 dialog.add('statictext', undefined, 'Select the number of anchor points per grid square:');
 var pointsPerSquare_Input = dialog.add('dropdownlist', undefined, [4, 8, 12, 16, 20]);
-
-// Awkward dangler for now
-var size = 60;
 
 // OK and Cancel buttons
 var buttonGroup = dialog.add('group');
@@ -39,19 +37,16 @@ buttonGroup.alignment = 'right';
 var okButton = buttonGroup.add('button', undefined, 'OK');
 var cancelButton = buttonGroup.add('button', undefined, 'Cancel');
 okButton.onClick = function () {
-    dialog.close(1);  // Return a "1" status for OK
+    dialog.close(1); // Return a "1" status for OK
 };
 cancelButton.onClick = function () {
-    dialog.close(0);  // Return a "0" status for Cancel
+    dialog.close(0); // Return a "0" status for Cancel
 };
-
-// Show the dialog and capture user input
 if (dialog.show() == 1) {
-    // User clicked OK, so collect input values
-    // Process the input (or use it in your ExtendScript)
-    // alert("Name: " + name + "\nAge: " + age);
+    width = width_input.text;
+    height = height_input.text;
 } else {
-    // alert("User canceled the input.");
+    alert("Script input cancelled.");
 };
 
 // Script execution below
