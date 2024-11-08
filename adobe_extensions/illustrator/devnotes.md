@@ -1,6 +1,4 @@
 ## PixelStitch: Scripts for Adobe Illustrator
 
 ### Vector mask generator
-- Script initialization dialog is fully functional. Tweak parameter ranges as needed.
-- Script is not currently using the multi-anchor point path generation function. Need to fix this.
-- Paths generated inside each row sublayer do not have unique names. Need to fix this.
+- Script does not join() coincident anchor points between different paths, so gaps/overlap will have to be manually avoided.

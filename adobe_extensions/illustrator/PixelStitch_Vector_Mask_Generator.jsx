@@ -46,10 +46,10 @@ cancelButton.onClick = function () {
     dialog.close(0); // Return a "0" status for Cancel
 };
 if (dialog.show() == 1) {
-    width = width_input.text;
-    height = height_input.text;
-    size = size_input.text;
-    anchor_points = anchor_points_input.text
+    width = parseInt(width_input.text, 10);
+    height = parseInt(height_input.text, 10);
+    size = parseInt(size_input.selection.text, 10);
+    anchor_points = parseInt(anchor_points_input.selection.text, 10);
 } else {
     alert("Script input cancelled.");
 };
@@ -58,47 +58,46 @@ if (dialog.show() == 1) {
 if (isNaN(width) || isNaN(height) || width < 8 || width > 128 || height < 8 || height > 128) {
     alert("Please enter valid positive integers for width and height.");
 } else {
-    // Check if there is an open document
     if (app.documents.length === 0) {
         alert("Please open a document before running this script.");
     } else {
-        // Use the currently active document
         var doc = app.activeDocument;
         var layerName = "vector_mask";
         function layerExists(doc, layerName) {
             try {
-                var layer = doc.layers.getByName(layerName);
-                return true;  // Layer exists
+                doc.layers.getByName(layerName);
+                return true;
             } catch (e) {
-                return false; // Layer does not exist
+                return false;
             }
         }
-        function createStitch(x, y, size, anchor_points) {
+        function createStitch(x, y, size, anchor_points, layer, rowNum, colNum) {
             var points = [];
             var step = size / (anchor_points / 4);
-            // Top edge points (from top-left to top-right)
-            for (var i = 0; i < (anchor_points / 4); i++) {
+            // Top edge (from top-left to top-right)
+            for (var i = 0; i <= (anchor_points / 4); i++) {
                 points.push([x + (i * step), y]);
             }
-            // Right edge points (from top-right to bottom-right)
-            for (var i = 1; i < (anchor_points / 4); i++) {
+            // Right edge (from top-right to bottom-right)
+            for (var i = 1; i <= (anchor_points / 4); i++) {
                 points.push([x + size, y - (i * step)]);
             }
-            // Bottom edge points (from bottom-right to bottom-left)
-            for (var i = (anchor_points / 4) - 2; i >= 0; i--) {
+            // Bottom edge (from bottom-right to bottom-left)
+            for (var i = (anchor_points / 4) - 1; i >= 0; i--) {
                 points.push([x + (i * step), y - size]);
             }
-            // Left edge points (from bottom-left to top-left)
-            for (var i = (anchor_points / 4) - 2; i > 0; i--) {
+            // Left edge (from bottom-left to top-left)
+            for (var i = (anchor_points / 4) - 1; i > 0; i--) { // > instead of >=, since top left point is defined on top edge
                 points.push([x, y - (i * step)]);
             }
-            // Create the path
-            var path = vectorMaskLayer.pathItems.add();
+            var path = layer.pathItems.add();
             path.setEntirePath(points);
-            path.closed = true;  // Ensure the path is closed
-            path.filled = false; // No fill color
-            path.stroked = true; // Add stroke if desired for visibility
-            path.strokeColor = new NoColor(); // Or define a color if needed
+            path.closed = true;
+            path.filled = false;
+            path.stroked = true;
+            path.strokeWidth = 0.5;
+            path.name = "stitch" + rowNum + "." + colNum;
+            path.move(layer, ElementPlacement.PLACEATEND);
             return path;
         }
         if (layerExists(doc, layerName)) {
@@ -107,27 +106,17 @@ if (isNaN(width) || isNaN(height) || width < 8 || width > 128 || height < 8 || h
             var vectorMaskLayer = doc.layers.add();
             vectorMaskLayer.name = "vector_mask";
 
-            // Set up document dimensions to fit the grid
-            var spacing = 20;  // Adjust spacing between paths
-            var pathSize = 10; // Size of each path (adjust as necessary)
-
-            // Loop through rows
             for (var row = 1; row <= height; row++) {
                 var rowLayer = vectorMaskLayer.layers.add();
                 rowLayer.name = "row" + row;
+                rowLayer.move(vectorMaskLayer, ElementPlacement.PLACEATEND);
 
-                // Loop through columns
                 for (var col = 1; col <= width; col++) {
-                    var path = rowLayer.pathItems.rectangle(
-                        -((row - 1) * spacing), // y-position (negative to start from top)
-                        (col - 1) * spacing,    // x-position
-                        pathSize, pathSize      // width, height of the path
-                    );
-
-                    // Set the path name and clear fill/stroke settings
-                    path.name = "stitch" + row + "." + col;
-                    path.filled = false;          // No fill color
-                    path.stroked = false;         // No stroke color
+                    var x = (col - 1) * size
+                    var y = -((row - 1) * size)  // negative to start from top
+                    var rowNum = row
+                    var colNum = col
+                    var path = createStitch(x, y, size, anchor_points, rowLayer, rowNum, colNum);
                 }
             }
             alert("Vector mask layer 'vector_mask' with sublayers generated successfully!");
