@@ -28,7 +28,7 @@ height_input.onChanging = function() {
     }
 };
 dialog.add('statictext', undefined, 'Select the size of each grid square:');
-var size_input = dialog.add('dropdownlist', undefined, [30, 60]);
+var size_input = dialog.add('dropdownlist', undefined, [10, 20, 30]);
 size_input.characters = 4;
 dialog.add('statictext', undefined, 'Select the number of anchor points per grid square:');
 var anchor_points_input = dialog.add('dropdownlist', undefined, [4, 8, 12, 16, 20, 24, 28, 32]);
@@ -95,7 +95,9 @@ if (isNaN(width) || isNaN(height) || width < 8 || width > 128 || height < 8 || h
             path.closed = true;
             path.filled = false;
             path.stroked = true;
-            path.strokeWidth = 0.5;
+            path.strokeWidth = 0.25;
+            path.opacity = 50;
+            path.blendingMode = BlendModes.MULTIPLY;
             path.name = "stitch" + rowNum + "." + colNum;
             path.move(layer, ElementPlacement.PLACEATEND);
             return path;
