@@ -31,7 +31,7 @@ dialog.add('statictext', undefined, 'Select the size of each grid square:');
 var size_input = dialog.add('dropdownlist', undefined, [30, 60]);
 size_input.characters = 4;
 dialog.add('statictext', undefined, 'Select the number of anchor points per grid square:');
-var anchor_points_input = dialog.add('dropdownlist', undefined, [4, 8, 12, 16, 20]);
+var anchor_points_input = dialog.add('dropdownlist', undefined, [4, 8, 12, 16, 20, 24, 28, 32]);
 anchor_points_input.characters = 4;
 
 // OK and Cancel buttons
