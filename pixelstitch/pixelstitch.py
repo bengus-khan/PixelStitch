@@ -44,7 +44,7 @@ DEVNOTES:
 user_design = None
 # Eventually going to list all background raster & mask files in a json or yaml file - might do this in higher-level script
 raster_background = None
-vector_mask = '../backgrounds/vector_mask_structure.svg'
+vector_mask = None
 
 class PixelStitch:
 

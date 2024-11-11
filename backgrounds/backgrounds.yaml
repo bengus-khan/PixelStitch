@@ -1,0 +1,6 @@
+backgrounds:
+  16x16:
+    16x16-1:
+      - "16x16-1_mask.svg"
+      - "16x16-1_raster.png"
+  32x32: null
