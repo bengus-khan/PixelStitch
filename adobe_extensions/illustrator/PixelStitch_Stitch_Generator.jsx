@@ -1,10 +1,9 @@
-// DEPRECATED
 // Adobe Illustrator extension for PixelStitch graphic design system
 
 // User input dialog
-var dialog = new Window("dialog", "PixelStitch: Vector Mask Generator");
+var dialog = new Window("dialog", "PixelStitch: Stitch Generator");
 
-dialog.add('statictext', undefined, 'Enter the grid width (must be an integer between 8 and 128):');
+dialog.add('statictext', undefined, 'Enter the design width (must be an integer between 8 and 128):');
 var width_input = dialog.add('edittext', undefined, '16');
 width_input.characters = 4;
 width_input.onChanging = function() {
@@ -16,7 +15,7 @@ width_input.onChanging = function() {
         width_input.text = '128'
     }
 };
-dialog.add('statictext', undefined, 'Enter the grid height (must be an integer between 8 and 128):');
+dialog.add('statictext', undefined, 'Enter the design height (must be an integer between 8 and 128):');
 var height_input = dialog.add('edittext', undefined, '16');
 height_input.characters = 4;
 height_input.onChanging = function() {
@@ -28,12 +27,9 @@ height_input.onChanging = function() {
         height_input.text = '128'
     }
 };
-dialog.add('statictext', undefined, 'Select the size of each grid square:');
+dialog.add('statictext', undefined, 'Select the size of each stitch:');
 var size_input = dialog.add('dropdownlist', undefined, [10, 20, 30]);
 size_input.characters = 4;
-dialog.add('statictext', undefined, 'Select the number of anchor points per grid square:');
-var anchor_points_input = dialog.add('dropdownlist', undefined, [4, 8, 12, 16, 20, 24, 28, 32]);
-anchor_points_input.characters = 4;
 
 // OK and Cancel buttons
 var buttonGroup = dialog.add('group');
@@ -50,7 +46,6 @@ if (dialog.show() == 1) {
     width = parseInt(width_input.text, 10);
     height = parseInt(height_input.text, 10);
     size = parseInt(size_input.selection.text, 10);
-    anchor_points = parseInt(anchor_points_input.selection.text, 10);
 } else {
     alert("Script input cancelled.");
 };
