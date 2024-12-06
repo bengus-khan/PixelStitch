@@ -1,0 +1,8 @@
+[
+    {"verticals":[
+            {"id": "vertical1", "color": "#dddddd", "position": []}
+    ]},
+    {"horizontals":[
+            {"id": "horizontal1", "color": "#dddddd", "position": []}
+    ]}
+]

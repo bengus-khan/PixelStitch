@@ -1,0 +1,20 @@
+[
+    {"id": "row1", "stitches":
+        [
+            {"id": "stitch1.1", "color": "#eeeeee", "vertices": [[-4, 4], [4, 6], [6, 4], [4, -4], [-4, -6], [-6, -4]], "position": []},
+            {"id": "stitch1.2", "color": "#eeeeee", "vertices": [], "position": []},
+            {"id": "stitch1.3", "color": "#eeeeee", "vertices": [], "position": []},
+            {"id": "stitch1.4", "color": "#eeeeee", "vertices": [], "position": []},
+            {"id": "stitch1.5", "color": "#eeeeee", "vertices": [], "position": []}
+        ]
+    },
+    {"id": "row2", "stitches":
+        [
+            {"id": "stitch2.1", "color": "#eeeeee", "vertices": [], "position": []},
+            {"id": "stitch2.2", "color": "#eeeeee", "vertices": [], "position": []},
+            {"id": "stitch2.3", "color": "#eeeeee", "vertices": [], "position": []},
+            {"id": "stitch2.4", "color": "#eeeeee", "vertices": [], "position": []},
+            {"id": "stitch2.5", "color": "#eeeeee", "vertices": [], "position": []}
+        ]
+    }
+]
