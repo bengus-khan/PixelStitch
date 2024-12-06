@@ -68,14 +68,15 @@ if (isNaN(width) || isNaN(height) || width < 8 || width > 256 || height < 8 || h
             var points = [];
             var increment = stitchSpacing / 10;
 
-            // plot anchor points, starting in top left and working clockwise
-            points.push([x - (increment * 4), y - (increment * 4)]);
-            points.push([x + (increment * 4), y - (increment * 6)]);
-            points.push([x + (increment * 6), y - (increment * 4)]);
-            points.push([x + (increment * 4), y + (increment * 4)]);
-            points.push([x - (increment * 4), y + (increment * 6)]);
-            points.push([x - (increment * 6), y + (increment * 4)]);
+            // add point coordinates to array
+            points.push([x + (increment * 4), y - (increment * 4)]);
+            points.push([x - (increment * 4), y - (increment * 6)]);
+            points.push([x - (increment * 6), y - (increment * 4)]);
+            points.push([x - (increment * 4), y + (increment * 4)]);
+            points.push([x + (increment * 4), y + (increment * 6)]);
+            points.push([x + (increment * 6), y + (increment * 4)]);
 
+            // generate path with attributes
             var path = layer.pathItems.add();
             path.setEntirePath(points);
             path.closed = true;
